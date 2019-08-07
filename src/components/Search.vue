@@ -9,7 +9,7 @@
 <script>
 
 export default {
-    name: "AdvancedSearch",
+    name: "Search",
     data(){
         return {
             isOpen: true

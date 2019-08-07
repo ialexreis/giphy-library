@@ -1,19 +1,24 @@
 <template>
   <div>
     <Sidebar></Sidebar>
-    <AdvancedSearch></AdvancedSearch> 
+    <Search></Search> 
+    <ListGifs></ListGifs>
   </div>
 </template>
 
 <script>
 import Sidebar from './components/Sidebar.vue'
-import AdvancedSearch from './components/AdvancedSearch.vue'
+import Search from './components/Search.vue'
+import ListGifs from './components/ListGifs.vue'
+
 
 export default {
   name: 'app',
   components: {
    Sidebar,
-   AdvancedSearch
+   Search,
+   ListGifs
   }
 }
+
 </script>
