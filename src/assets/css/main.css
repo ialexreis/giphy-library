@@ -266,6 +266,25 @@ figure.gif-figure .icons span {
   -webkit-transform: translate(35px, -35px);
   transform: translate(35px, -35px);
 }
+figure.gif-figure .plus-icon {
+  position: absolute;
+  top: -25%;
+  right: -25%;
+  text-align: center;
+  vertical-align: middle
+}
+figure.gif-figure .plus-icon span {
+  display: inline-block;
+  font-size: 75px;
+  color: #ffffff;
+  left: 0;
+  opacity: 1;
+  position: relative;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
 figure.gif-figure .corner {
   position: absolute;
   right: 0;
@@ -349,4 +368,15 @@ figure.gif-figure:hover a:nth-child(3) span,
 figure.gif-figure.hover a:nth-child(3) span {
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
+}
+
+figure.gif-figure:hover .plus-icon,
+figure.gif-figure.hover .plus-icon {
+  opacity: 1;
+}
+figure.gif-figure:hover .plus-icon span,
+figure.gif-figure.hover .plus-icon span {
+  -webkit-transform: translate(-300%, 300%);
+  transform: translate(-300%, 300%);
+  opacity: 1;
 }

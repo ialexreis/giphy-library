@@ -10,6 +10,9 @@
           <a :href="`${twitterShare}${gif.images.original.url}`" target="_blank"><span class="icon-twitter"></span></a>
           <a :href="`${googleShare}${gif.images.original.url}`" target="_blank"><span class="icon-google-plus"></span></a>
         </div>
+        <div class="plus-icon">
+          <a href=""><span class="icon-zoom-tool"></span></a>
+        </div>
         <div class="corner"><span class="icon-plus"></span></div>
       </figure>
     </div>
