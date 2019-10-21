@@ -84,6 +84,7 @@ input {
   border-radius: 50%;
   background: none;
   color: #ba4a29;
+  background-color: #fff;
   font-size: 16px;
   font-weight: 400;
   font-family: "Blinker", sans-serif;
@@ -179,6 +180,7 @@ input {
   border-radius: 0;
   background: none;
   color: #ba4a29;
+  background-color: #FFF;
   font-family: "Blinker", sans-serif;
   font-size: 16px;
   font-weight: 400;
